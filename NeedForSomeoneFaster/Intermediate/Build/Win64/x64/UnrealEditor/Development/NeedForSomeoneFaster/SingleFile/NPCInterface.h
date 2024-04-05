@@ -1,0 +1,1 @@
+#include "D:/unreal projects/NeedForSomeoneFaster/Source/NeedForSomeoneFaster/Public/Interfaces/NPCInterface.h"

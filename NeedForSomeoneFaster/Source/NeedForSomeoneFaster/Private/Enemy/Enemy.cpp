@@ -43,6 +43,8 @@ void AEnemy::Tick(float DeltaTime)
 	MoveToPlayer();
 	if (Distance < CombatRadius && CharacterState == ECharacterState::ECS_Unoccupied)
 		Attack();
+	else if (Distance > 1000.f)
+		HealthBar->SetVisibility(false);
 }
 
 float AEnemy::GetHit(float Damage)
@@ -136,8 +138,7 @@ void AEnemy::PawnSeen(APawn* SeenPawn)
 	ChaseTarget = SeenPawn;
 	MoveToPlayer();
 	Distance = FVector::Dist(GetActorLocation(), ChaseTarget->GetActorLocation());
-	if(Distance > 1000.f)
-		HealthBar->SetVisibility(false);
+	
 	//GetWorldTimerManager().SetTimer(AttackTimer, this, &AEnemy::MoveToPlayer, 1.f);
 }
 

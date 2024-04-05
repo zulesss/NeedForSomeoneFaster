@@ -1,0 +1,44 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NeedForSomeoneFaster.cpp.obj": [
+			"AttributiveComponent.gen.cpp.obj",
+			"BaseCharacter.gen.cpp.obj",
+			"Boss.gen.cpp.obj",
+			"BossInterface.gen.cpp.obj",
+			"CharacterTypes.gen.cpp.obj",
+			"CharAnimInstance.gen.cpp.obj",
+			"Enemy.gen.cpp.obj",
+			"HealthBarComponent.gen.cpp.obj",
+			"HealthBarWidget.gen.cpp.obj",
+			"HitInterface.gen.cpp.obj",
+			"NeedForSomeoneFaster.init.gen.cpp.obj",
+			"NPC.gen.cpp.obj",
+			"NPCInterface.gen.cpp.obj",
+			"PlayerCharacter.gen.cpp.obj",
+			"PlayerHUD.gen.cpp.obj",
+			"PlayerOverlay.gen.cpp.obj",
+			"SpeedChangeInterface.gen.cpp.obj",
+			"StartHUD.gen.cpp.obj",
+			"StartOverlay.gen.cpp.obj",
+			"NeedForSomeoneFaster.cpp.obj",
+			"BaseCharacter.cpp.obj",
+			"CharAnimInstance.cpp.obj",
+			"PlayerCharacter.cpp.obj",
+			"AttributiveComponent.cpp.obj",
+			"Boss.cpp.obj",
+			"Enemy.cpp.obj",
+			"HealthBarComponent.cpp.obj",
+			"HealthBarWidget.cpp.obj",
+			"PlayerHUD.cpp.obj",
+			"PlayerOverlay.cpp.obj",
+			"StartHUD.cpp.obj",
+			"StartOverlay.cpp.obj",
+			"BossInterface.cpp.obj",
+			"HitInterface.cpp.obj",
+			"NPCInterface.cpp.obj",
+			"SpeedChangeInterface.cpp.obj",
+			"NPC.cpp.obj"
+		]
+	}
+}

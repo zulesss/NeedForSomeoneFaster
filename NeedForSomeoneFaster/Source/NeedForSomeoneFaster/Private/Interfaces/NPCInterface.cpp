@@ -8,3 +8,7 @@
 void INPCInterface::VictoryText()
 {
 }
+
+void INPCInterface::BossActive()
+{
+}

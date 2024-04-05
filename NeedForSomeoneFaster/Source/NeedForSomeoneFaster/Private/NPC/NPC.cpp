@@ -34,12 +34,18 @@ void ANPC::VictoryText()
 		if (PlayerInterface)
 			NPCLocation = PlayerInterface->GetSpawnPoint();
 		FRotator NPCRotation = Player->GetActorRotation();
-		NPCRotation.Yaw += 180.f;
+		NPCRotation.Yaw += 270.f;
 		SetActorLocation(NPCLocation);
 		SetActorRotation(NPCRotation);
 	}
-	WriteOverlayText(FString("You did it! Thanks for your help. The city will not forgot what did you do!"), false);
+	WriteOverlayText(FString("You did it! Thanks for your help. The city will not forget what you have done!"), false);
 	GetWorldTimerManager().SetTimer(TextTimer, this, &ANPC::EndGame, 7.f);
+}
+
+void ANPC::BossActive()
+{
+	WriteOverlayText(FString("NOW YOU WILL DIE!"), true);
+	GetWorldTimerManager().SetTimer(TextTimer, this, &ANPC::ClearBossText, 5.f);
 }
 
 void ANPC::EndGame()
@@ -50,6 +56,11 @@ void ANPC::EndGame()
 		APlayerController* PlayerController = World->GetFirstPlayerController();
 		UKismetSystemLibrary::QuitGame(this, PlayerController, EQuitPreference::Quit, true);
 	}
+}
+
+void ANPC::ClearBossText()
+{
+	WriteOverlayText(FString(""), true);
 }
 
 void ANPC::StartText()

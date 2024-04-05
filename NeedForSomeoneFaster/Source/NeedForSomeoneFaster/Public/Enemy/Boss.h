@@ -27,7 +27,6 @@ private:
 	UPROPERTY(EditAnywhere)
 	AActor* NPC;
 	virtual void Attack() override;
-	bool ShouldCheck = true;
 	FTimerHandle CheckTimer;
 	UPROPERTY(EditAnywhere)
 	float XOffset;

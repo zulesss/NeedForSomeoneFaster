@@ -20,6 +20,7 @@ public:
 protected:
 	virtual void BeginPlay() override;
 	virtual void VictoryText() override;
+	virtual void BossActive() override;
 private:	
 	UPROPERTY(VisibleAnywhere)
 	UPawnSensingComponent* PawnSensing;
@@ -36,4 +37,5 @@ private:
 	AActor* Player;
 	bool bStartText = true;
 	void EndGame();
+	void ClearBossText();
 };

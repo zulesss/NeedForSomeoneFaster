@@ -13,6 +13,17 @@
 				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/Enemy/BP_Enemy.uasset",
 				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/Character/BP_PlayerCharacter.uasset",
 				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/GameMode/BP_StartGM.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Low_Poly_Town/Materials/M_Atlas.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/AM_BossJump.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jumping_Down.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jump/Ch50_body.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jump/Ch50_body1.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jump/Jumping_Down.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jump/Jumping_Down_Anim.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jump/Jumping_Down_PhysicsAsset.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Boss/Animations/Jump/Jumping_Down_Skeleton.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Sounds/Single-footstep-on-concrete-with-sneaker-shoes-10-www_FesliyanStudios_com-_2_.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Assets/Sounds/Single-footstep-on-concrete-with-sneaker-shoes-10-www_FesliyanStudios_com-_1_.uasset",
 				"D:/unreal projects/NeedForSomeoneFaster/Content/Maps/Map_1.umap"
 			]
 		}

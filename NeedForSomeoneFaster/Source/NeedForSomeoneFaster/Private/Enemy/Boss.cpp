@@ -39,7 +39,9 @@ void ABoss::CheckEnemies(AActor* Object)
 	Location.X += XOffset;
 	SetActorLocation(Location);
 	CharacterState = ECharacterState::ECS_Unoccupied;
-	ShouldCheck = false;
+	INPCInterface* NPCInterface = Cast<INPCInterface>(NPC);
+	if (NPCInterface)
+		NPCInterface->BossActive();
 }
 
 float ABoss::GetHit(float Damage)
