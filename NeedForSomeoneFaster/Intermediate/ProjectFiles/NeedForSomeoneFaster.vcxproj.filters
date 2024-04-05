@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NeedForSomeoneFaster.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NeedForSomeoneFaster.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NeedForSomeoneFasterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NeedForSomeoneFaster">
+      <UniqueIdentifier>{6F927164-15BD-3AE2-9423-3BD7A1B807CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NeedForSomeoneFaster\NeedForSomeoneFaster.Build.cs">
+      <Filter>Source\NeedForSomeoneFaster</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\NeedForSomeoneFaster.cpp">
+      <Filter>Source\NeedForSomeoneFaster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\NeedForSomeoneFaster.h">
+      <Filter>Source\NeedForSomeoneFaster</Filter>
+    </ClInclude>
+    <Filter Include="Source\NeedForSomeoneFaster\Private">
+      <UniqueIdentifier>{F7F695B5-814E-392B-9C9F-EF2CE5BA7B64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NeedForSomeoneFaster\Private\Character">
+      <UniqueIdentifier>{B6F9A191-BEFC-3942-A0A7-1822ECEC3039}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Character\BaseCharacter.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Character\CharAnimInstance.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Character\PlayerCharacter.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\NeedForSomeoneFaster\Private\Components">
+      <UniqueIdentifier>{ECFDA353-0A47-3D1D-A3F4-B861ADE30E41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Components\AttributiveComponent.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\NeedForSomeoneFaster\Private\Enemy">
+      <UniqueIdentifier>{997C1D3D-93CF-36FA-8D59-82FA9ABB9507}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Enemy\Boss.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Enemy\Enemy.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Enemy</Filter>
+    </ClCompile>
+    <Filter Include="Source\NeedForSomeoneFaster\Private\Hud">
+      <UniqueIdentifier>{59DA72C4-2E9A-39C2-AB45-ED31391027AE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Hud\HealthBarComponent.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Hud\HealthBarWidget.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Hud\PlayerHUD.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Hud\PlayerOverlay.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Hud\StartHUD.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Hud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Hud\StartOverlay.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Hud</Filter>
+    </ClCompile>
+    <Filter Include="Source\NeedForSomeoneFaster\Private\Interfaces">
+      <UniqueIdentifier>{07A0C769-BB3E-31B1-8117-AACE1F8C7A2E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Interfaces\BossInterface.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Interfaces\HitInterface.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Interfaces\NPCInterface.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\Interfaces\SpeedChangeInterface.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\Interfaces</Filter>
+    </ClCompile>
+    <Filter Include="Source\NeedForSomeoneFaster\Private\NPC">
+      <UniqueIdentifier>{F7DB63B6-3D2D-3688-AEA9-82F3155CB627}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NeedForSomeoneFaster\Private\NPC\NPC.cpp">
+      <Filter>Source\NeedForSomeoneFaster\Private\NPC</Filter>
+    </ClCompile>
+    <Filter Include="Source\NeedForSomeoneFaster\Public">
+      <UniqueIdentifier>{C2F29DB8-0167-340E-AFF4-B2F7956A6EB5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NeedForSomeoneFaster\Public\Character">
+      <UniqueIdentifier>{F02425BC-12C1-3F42-B542-C09A3A604C20}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Character\BaseCharacter.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Character\CharacterTypes.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Character\CharAnimInstance.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Character\PlayerCharacter.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\NeedForSomeoneFaster\Public\Components">
+      <UniqueIdentifier>{EA5725BC-25C1-37E8-8E84-33F85795D7F9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Components\AttributiveComponent.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\NeedForSomeoneFaster\Public\Enemy">
+      <UniqueIdentifier>{FA95F702-7288-3136-A030-FBCD30C82BD9}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Enemy\Boss.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Enemy\Enemy.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Enemy</Filter>
+    </ClInclude>
+    <Filter Include="Source\NeedForSomeoneFaster\Public\Hud">
+      <UniqueIdentifier>{299E013E-5300-36DF-B91F-30746E47ECEA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Hud\HealthBarComponent.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Hud\HealthBarWidget.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Hud\PlayerHUD.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Hud\PlayerOverlay.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Hud\StartHUD.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Hud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Hud\StartOverlay.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Hud</Filter>
+    </ClInclude>
+    <Filter Include="Source\NeedForSomeoneFaster\Public\Interfaces">
+      <UniqueIdentifier>{F4B6F48D-DA33-3671-95A0-5B2DE63A8060}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Interfaces\BossInterface.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Interfaces\HitInterface.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Interfaces\NPCInterface.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\Interfaces\SpeedChangeInterface.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\NeedForSomeoneFaster\Public\NPC">
+      <UniqueIdentifier>{485AFED7-F66F-30B2-AE1B-762750FBB80E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\NeedForSomeoneFaster\Public\NPC\NPC.h">
+      <Filter>Source\NeedForSomeoneFaster\Public\NPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

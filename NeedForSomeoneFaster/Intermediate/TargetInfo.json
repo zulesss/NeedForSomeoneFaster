@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NeedForSomeoneFaster",
+			"Path": "..\\Source\\NeedForSomeoneFaster.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NeedForSomeoneFasterEditor",
+			"Path": "..\\Source\\NeedForSomeoneFasterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

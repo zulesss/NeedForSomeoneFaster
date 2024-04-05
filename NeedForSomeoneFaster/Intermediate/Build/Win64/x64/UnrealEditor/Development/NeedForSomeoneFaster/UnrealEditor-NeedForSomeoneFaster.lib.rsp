@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NeedForSomeoneFaster.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\unreal projects\NeedForSomeoneFaster\Intermediate\Build\Win64\x64\NeedForSomeoneFasterEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\unreal projects\NeedForSomeoneFaster\Intermediate\Build\Win64\x64\UnrealEditor\Development\NeedForSomeoneFaster\Module.NeedForSomeoneFaster.cpp.obj"
+"D:\unreal projects\NeedForSomeoneFaster\Intermediate\Build\Win64\x64\UnrealEditor\Development\NeedForSomeoneFaster\Default.rc2.res"
+/OUT:"D:\unreal projects\NeedForSomeoneFaster\Intermediate\Build\Win64\x64\UnrealEditor\Development\NeedForSomeoneFaster\UnrealEditor-NeedForSomeoneFaster.lib"

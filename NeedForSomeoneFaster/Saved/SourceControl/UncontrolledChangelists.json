@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Maps/MainLevel.umap",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/UserInterface/BP_PlayerOverlay.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/UserInterface/BP_StartHUD.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Maps/MainMenu.umap",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/Boss/BP_Boss.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/Enemy/BP_Enemy.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/Character/BP_PlayerCharacter.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Blueprints/GameMode/BP_StartGM.uasset",
+				"D:/unreal projects/NeedForSomeoneFaster/Content/Maps/Map_1.umap"
+			]
+		}
+	]
+}
